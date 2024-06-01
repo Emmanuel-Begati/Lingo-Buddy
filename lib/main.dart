@@ -118,21 +118,6 @@ class LingoBuddyApp extends StatelessWidget {
   }
 }
 
-Widget _buildLanguageCard(String language, Color color) {
-  return Card(
-    color: color,
-    child: Center(
-      child: Text(
-        language,
-        style: const TextStyle(
-          fontSize: 18,
-          fontWeight: FontWeight.bold,
-          color: Colors.white,
-        ),
-      ),
-    ),
-  );
-}
 
 Widget _buildCourseCard(String title, String imagePath) {
   return Container(
