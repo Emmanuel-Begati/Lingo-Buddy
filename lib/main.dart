@@ -79,7 +79,7 @@ class LingoBuddyApp extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                   ),
                 ),
-                const SizedBox(height: 10),
+                const (height: 10),
                 _buildActivityTile('Lesson 1 Completed', 'Basic English', Icons.check_circle),
                 _buildActivityTile('Quiz Attempted', 'Conversational Spanish', Icons.quiz),
                 _buildActivityTile('Lesson 2 Unlocked', 'French for Beginners', Icons.lock_open),
