@@ -17,6 +17,7 @@ class LingoBuddyApp extends StatelessWidget {
             IconButton(
               icon: const Icon(Icons.settings),
               onPressed: () {
+                // Add functionality for the settings button
               },
             ),
           ],
