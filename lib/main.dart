@@ -110,7 +110,6 @@ class LingoBuddyApp extends StatelessWidget {
         floatingActionButton: FloatingActionButton(
           child: const Icon(Icons.mic),
           onPressed: () {
-            // Add functionality for the floating action button
           },
           backgroundColor: Colors.red[600],
         ),
