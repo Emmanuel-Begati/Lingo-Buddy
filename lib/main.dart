@@ -105,7 +105,6 @@ class LingoBuddyApp extends StatelessWidget {
           currentIndex: 0,
           selectedItemColor: Colors.red[600],
           onTap: (int index) {
-            // Add functionality for bottom navigation bar item taps
           },
         ),
         floatingActionButton: FloatingActionButton(
